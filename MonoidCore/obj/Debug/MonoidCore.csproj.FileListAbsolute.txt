@@ -1,0 +1,5 @@
+E:\Monoid\MonoidCore\bin\Debug\MonoidCore.dll
+E:\Monoid\MonoidCore\bin\Debug\MonoidCore.pdb
+E:\Monoid\MonoidCore\obj\Debug\MonoidCore.csprojResolveAssemblyReference.cache
+E:\Monoid\MonoidCore\obj\Debug\MonoidCore.dll
+E:\Monoid\MonoidCore\obj\Debug\MonoidCore.pdb
