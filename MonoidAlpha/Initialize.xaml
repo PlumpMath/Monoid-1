@@ -1,0 +1,35 @@
+﻿<Page
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MonoidAlpha"
+      xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="MonoidAlpha.Initialize"
+      mc:Ignorable="d" 
+      d:DesignHeight="768" d:DesignWidth="600"
+      Title="Initialize">
+
+	<Page.Resources>
+		<BlurEffect x:Key="Blur" Radius="10" />
+	</Page.Resources>
+
+	<Grid Width="600">
+		<TextBlock HorizontalAlignment="Left" Margin="50,50,0,0" TextWrapping="Wrap" Text="Monoid α" VerticalAlignment="Top" FontSize="36" Foreground="{DynamicResource BrushText}"/>
+		<TextBlock HorizontalAlignment="Left" Margin="75,101,0,0" TextWrapping="Wrap" Text="~ Melody of Coincidence" VerticalAlignment="Top" Foreground="{DynamicResource BrushText}"/>
+		<Button x:Name="BtnStartGame"  HorizontalAlignment="Right" Margin="0,0,50,50" Click="BtnStartGameClicked" VerticalAlignment="Bottom" MouseEnter="BtnStartGameEntered" MouseLeave="BtnStartGameLeft" Foreground="{DynamicResource BrushText}">
+			<Button.Template>
+				<ControlTemplate>
+					<TextBlock TextWrapping="Wrap" Text="{DynamicResource START_GAME}"  FontSize="24"/>
+				</ControlTemplate>
+			</Button.Template>
+		</Button>
+		<Button x:Name="BtnLoadGame"  HorizontalAlignment="Right" Margin="0,0,50,85" Click="BtnLoadGameClicked" MouseEnter="BtnLoadGameEntered" MouseLeave="BtnLoadGameLeft" Foreground="{DynamicResource BrushText}" Height="30" VerticalAlignment="Bottom">
+			<Button.Template>
+				<ControlTemplate>
+					<TextBlock TextWrapping="Wrap"  FontSize="24" Text="{DynamicResource LOAD_GAME}"/>
+				</ControlTemplate>
+			</Button.Template>
+		</Button>
+	</Grid>
+
+</Page>

@@ -3,3 +3,5 @@ E:\Monoid\MonoidCore\bin\Debug\MonoidCore.pdb
 E:\Monoid\MonoidCore\obj\Debug\MonoidCore.csprojResolveAssemblyReference.cache
 E:\Monoid\MonoidCore\obj\Debug\MonoidCore.dll
 E:\Monoid\MonoidCore\obj\Debug\MonoidCore.pdb
+E:\Monoid\MonoidCore\obj\Debug\MonoidCore.Properties.Resources.resources
+E:\Monoid\MonoidCore\obj\Debug\MonoidCore.csproj.GenerateResource.Cache
